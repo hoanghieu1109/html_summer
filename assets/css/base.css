@@ -1,0 +1,21 @@
+:root {
+    --text-color : #7f7770;
+    --header-text: #e2a355;
+
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}

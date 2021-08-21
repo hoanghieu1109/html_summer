@@ -1,0 +1,101 @@
+@media (min-width: 1349px) {
+    .header {
+        width: 1349px;
+    }
+    .banner-img {
+        width: 1349px;
+    }
+    .address-img {
+        width: 1349px;
+    }
+    .the-world-img {
+        width: 1349px;
+    }
+    .service-discount{
+        width: 50%;
+    }
+    .service-time{
+        width: 50%;
+    }
+    .service-discount {
+        width: 50%;
+    }
+    .service-img{
+        width: 674.5px;
+        height: 100%;
+    }
+    .place-list {
+        margin: 0 70px;
+    }
+    .show-more {
+        margin: 55px 540px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header {
+        width: 1440px;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .address-img {
+        width: 100%;
+    }
+    .the-world-img {
+        width: 100%;
+    }
+    .service-discount{
+        width: 50%;
+    }
+    .service-time{
+        width: 50%;
+    }
+    .service-discount {
+        width: 50%;
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .place-list {
+        margin: 0 70px;
+    }
+    .show-more {
+        margin: 55px 540px;
+    }
+}
+
+/* @media (min-width: 414px) {
+    .header {
+        width: 414px;
+    }
+    .banner-img {
+        width: 414px;
+    }
+    .address-img {
+        width: 414px;
+    }
+    .the-world-img {
+        width: 100%;
+    }
+    .service-discount{
+        width: 50%;
+    }
+    .service-time{
+        width: 50%;
+    }
+    .service-discount {
+        width: 50%;
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+    }
+    .place-list {
+        margin: 0 70px;
+    }
+    .show-more {
+        margin: 55px 540px;
+    }
+} */

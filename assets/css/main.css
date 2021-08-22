@@ -250,6 +250,7 @@
 }
 
 .service-time {
+    width: 50%;
     height: 780px;
     background-color: #deb37e;
 }

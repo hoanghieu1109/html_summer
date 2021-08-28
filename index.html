@@ -9,57 +9,70 @@
     
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!--  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body class="body">
     <div class="main">
         <!-- header -->
 
         <header class="header"> 
             <div class="header-left">
-                <a href=""><img class="header-left__img" src="./assets/img/logo.png" alt=""></a>
+                <a href=""><img class="header-left__img" src="./assets/img/logo2.png" alt=""></a>
             </div>
-            <div class="header-right">
-                <ul class="header-right__nav">
+            <div class="header-right" id="header"> 
+                <ul class="header-right__nav" id="nav">
                     <li class="header-right__nav--item"><a href="#">Home</a></li>
                     <li class="header-right__nav--item"><a href="#">Menu</a></li>
                     <li class="header-right__nav--item"><a href="#">Our story</a></li>
                     <li class="header-right__nav--item"><a href="#">Contact us</a></li>
                 </ul>
-                <input class="header-right__search">
-                    <i class="fas fa-search header-right__search--icon"></i>
-                </input>
+                <div class="header-right__search">
+                    <input class="header-right__input" type="text" placeholder="Tìm kiếm">
+                    <div class=" header-right__search--icon">
+                        <span class="fas fa-search"></span>
+                    </div>
+                </div>
+                
             </div>
             
         </header>
 
         <!-- container -->
-        <div class="container">
+        <div class="container1">
             <!-- banner -->
             <div class="banner"> 
                 <div class="banner-text">
                     <h1 class="banner-heading">it's time for hiking</h1>
                     <h4 class="banner-dolor">loremipsum dolor</h4>
-                    <button class="banner-more">read more</button>
+                    <div class="banner-more"><a href="#">read more</a></div>
                     <p>
                         Lorem ipsum dolor dolor sit amet, consectetur adipi- scing elit. 
                         sed do iusmod tepor incididunt ut labore et dolore magna
                     </p>
                 </div>
-                <img class="banner-img" src="./assets/img/banner2.png" alt="">
+                <img class="banner-img" src="./assets/img/banner.png" alt="">
             </div>
             <!-- place -->
+
+
             <div class="place">
                 <h1 class="place-heading">Let's go</h1>
                 <div class="place-text">
-
                     <p class="place-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p class="place-title">Vivamus lacinia odio vitae vestibulum vestibulum.</p>
-                    
                 </div>
                 <div class="place-list">
                     <div class="place-list__item">
@@ -74,7 +87,7 @@
                         </div>
                     </div>
                     <div class="place-list__item">
-                        <img class="place-list__item-img" src="./assets/img/anh1.png" alt="">
+                        <img class="place-list__item-img" src="./assets/img/anh2.png" alt="">
                         <div class="place-list__item-body">
                             <p class="place-list__heading">Lorem ipsum</p>
                             <p class="place-list__text">
@@ -85,7 +98,7 @@
                         </div>
                     </div>
                     <div class="place-list__item">
-                        <img class="place-list__item-img" src="./assets/img/anh1.png" alt="">
+                        <img class="place-list__item-img" src="./assets/img/anh3.png" alt="">
                         <div class="place-list__item-body">
                             <p class="place-list__heading">Lorem ipsum</p>
                             <p class="place-list__text">
@@ -96,16 +109,17 @@
                         </div>
                     </div>
                 </div>
-                <button class="show-more">Show more</button>
+                <div class="show-more"><a>Show more</a></div>
                 <div class="place-shadow">
-                    <img src="./assets/img/Shadow1.png" alt="">
+                    <img src="./assets/img/Shadow2.png" alt="">
                 </div>
             </div>
-            <div class="clear"></div>
+
+
             <!-- sevice -->
             <div class="service">
                 <div class="service-image">
-                    <img class="service-img" src="./assets/img/anh5.png" alt="" >
+                    <img class="service-img" src="./assets/img/place1.png" alt="" >
                 </div>
                 <div class="service-discount">
                     <div class="service-time__text">
@@ -117,7 +131,7 @@
                             elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
                             magna aliquam erat
                         </p>
-                        <button class="service-discount__more">read more</button>
+                        <div class="service-discount__more"><a href="#">Read more</a></div>
                     </div>
                 </div>
                 <div class="service-time">
@@ -130,11 +144,11 @@
                             elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
                             magna aliquam erat
                         </p>
-                        <button class="service-discount__more">read more</button>
+                        <div class="service-discount__more"><a href="">Read more</a></div>
                     </div>
                 </div>
                 <div class="service-image">
-                    <img class="service-img" src="./assets/img/anh6.png" alt="" >
+                    <img class="service-img" src="./assets/img/place2.png" alt="" >
                 </div>
             </div>
 
@@ -150,7 +164,7 @@
                 </div>
                 <img class="mountants-img" src="./assets/img/Shape3.png" alt="">
             </div>
-
+ 
             <!-- explore -->
             <div class="the-world">
                 <div class="the-world-text">
@@ -196,18 +210,69 @@
                 </div>
             </div>
 
-            <div class="veniam">
-                <img class="veniam-img" src="./assets/img/Shadow4.png" alt="">
-                <div class="veniam-pragraph">
-                    <h2 class="veniam-heading">''</h2>
-                    <p class="veniam-text">
-                        Lorem ipsum dolor sit amet, comsectetur adipisicing elit 
-                        , sed do ei- usmod tempor incididunt ut labore et dolore magna aliqua
-                        . Ut enim ad minim veniam quis
-                    </p>
-                    <h2 class="veniam-name">Lorem Ipsum</h2>
+
+            <!-- slider swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="veniam">
+                            <div class="veniam-pragraph">
+                                <h2 class="veniam-heading">''</h2>
+                                <p class="veniam-text">
+                                    Lorem ipsum dolor sit amet, comsectetur adipisicing elit 
+                                    , sed do ei- usmod tempor incididunt ut labore et dolore magna aliqua
+                                    . Ut enim ad minim veniam quis
+                                </p>
+                                <h2 class="veniam-name">Lorem Ipsum</h2>
+                            </div>
+                            <img class="veniam-img" src="./assets/img/shadow14.png" alt="">
+                        </div>
+                    </div>
+                  <div class="swiper-slide">
+                    <div class="veniam">
+                        <div class="veniam-pragraph">
+                            <h2 class="veniam-heading">''</h2>
+                            <p class="veniam-text">
+                                Lorem ipsum dolor sit amet, comsectetur adipisicing elit 
+                                , sed do ei- usmod tempor incididunt ut labore et dolore magna aliqua
+                                . Ut enim ad minim veniam quis
+                            </p>
+                            <h2 class="veniam-name">Lorem Ipsum</h2>
+                        </div>
+                        <img class="veniam-img" src="./assets/img/shadow14.png" alt="">
+                    </div>
+                    </div>
+                  <div class="swiper-slide">
+                    <div class="veniam">
+                        <div class="veniam-pragraph">
+                            <h2 class="veniam-heading">''</h2>
+                            <p class="veniam-text">
+                                Lorem ipsum dolor sit amet, comsectetur adipisicing elit 
+                                , sed do ei- usmod tempor incididunt ut labore et dolore magna aliqua
+                                . Ut enim ad minim veniam quis
+                            </p>
+                            <h2 class="veniam-name">Lorem Ipsum</h2>
+                        </div>
+                        <img class="veniam-img" src="./assets/img/shadow14.png" alt="">
+                    </div>
+                    </div>
+                  <div class="swiper-slide">
+                    <div class="veniam">
+                        <div class="veniam-pragraph">
+                            <h2 class="veniam-heading">''</h2>
+                            <p class="veniam-text">
+                                Lorem ipsum dolor sit amet, comsectetur adipisicing elit 
+                                , sed do ei- usmod tempor incididunt ut labore et dolore magna aliqua
+                                . Ut enim ad minim veniam quis
+                            </p>
+                            <h2 class="veniam-name">Lorem Ipsum</h2>
+                        </div>
+                        <img class="veniam-img" src="./assets/img/shadow14.png" alt="">
+                    </div>
+                    </div>
                 </div>
-            </div>
+              </div>
+
 
             <div class="address">
                 <div class="address-pragraph">
@@ -218,12 +283,11 @@
                     </p>
                     <div class="address-send">
                         <input class="address-input" type="text" placeholder="Your Email">
-                        <button class="address-button">Subscribe</button>
+                        <a class="address-button">Subscribe</a>
                     </div>
                 </div>
-                <img class="address-img" src="./assets/img/Shape6.png" alt="">
+                <img class="address-img" src="./assets/img/anh94.png" alt="">
             </div>
-            
         </div>
 
         <!-- footer -->
@@ -242,8 +306,14 @@
                         <li class="footer-item">
                             <a href="#" class="footer-item__link">
                                 <i class="fab fa-instagram footer-item__link-icon"></i>
+                            </a>
+                            <a href="#" class="footer-item__link">
                                 <i class="fab fa-facebook footer-item__link-icon"></i>
+                            </a>
+                            <a href="#" class="footer-item__link">
                                 <i class="fab fa-twitter-square footer-item__link-icon"></i>
+                            </a>
+                            <a href="#" class="footer-item__link">
                                 <i class="fab fa-viber footer-item__link-icon"></i>
                             </a>
                         </li>
@@ -310,7 +380,17 @@
                     </ul>
                 </div>
             </div>
+            <img class="footer-img" src="./assets/img/footer3.png" alt="">
         </footer>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {});
+    </script>
 </body>
 </html>
+
+
